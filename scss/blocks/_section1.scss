@@ -1,0 +1,42 @@
+.section {
+    position: relative;
+    background-color: $bg-color;
+    height: 544px;
+    padding: 120px 130px;
+    margin-bottom: 120px;
+    
+    &__box {
+        position: relative;
+        width: 490px;
+        height: 294px;
+    }
+    
+    &__title {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 65px;
+        color: $color;
+        margin-bottom: 18px;
+    }
+    
+    &__description {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: $color;
+    }
+    
+    &__img {
+        position: absolute;
+        top: -140px;
+        right: -800px;
+        background-image: url("../../images/happy.svg");
+        background-repeat: no-repeat;
+        background-position: right center;
+        width: 738px;
+        height: 580px;
+        border: 1px solid transparent;
+    }
+}
+
+
